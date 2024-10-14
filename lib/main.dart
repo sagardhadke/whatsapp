@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0XFF00A884)),
         //custom theme
         useMaterial3: false,
+        //font
+        fontFamily: "Regular"
       ),
       home: Splashscreen()
     );
